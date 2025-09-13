@@ -185,8 +185,6 @@ class CodebaseParser:
                     
                 result.append(self.generate_separator(section_header))
                 result.append(f"File: {rel_path}")
-                result.append(f"Language: {language}")
-                result.append(f"Path: {file_path}")
                 result.append("-" * 100)
                 
                 # Read and add file content
